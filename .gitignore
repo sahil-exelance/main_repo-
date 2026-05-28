@@ -1,0 +1,25 @@
+# This is a comment - ignore all log files
+*.log
+
+# Ignore dependency directories (Node.js)
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore environment variables/secrets
+.env
+
+# Ignore OS-specific files (macOS & Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings (VS Code & IntelliJ)
+.vscode/
+.idea/
+
+# Ignore build/dist folders
+dist/
+build/
+package-lock.json
